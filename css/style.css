@@ -1,17 +1,14 @@
 :root {
 
   --background: #DCD4CA;         /*Warm Cream / Linen*/
-
   --deep_neutral: #282320;       /*Espresso / Soft Black*/
-
   --primary_accent: #5B9B9E;     /*Western Vintage Teal*/
-
   --metallic_Accent: #8B8D8F;    /*Antique Silver / Pewter*/
 }
 
 body {
   font-family: 'Rockwell Std', serif;
-  margin: 0,
+  margin: 0;
   background-color: var(--background);
      }
 
@@ -20,7 +17,7 @@ header {
 }
 
 footer {
-  border-bottom: 2px solid var(-deep_neutral);
+  border-bottom: 2px solid var(--deep_neutral);
 }
 
 
