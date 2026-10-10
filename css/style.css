@@ -13,11 +13,11 @@ body {
      }
 
 header {
-  border-top: 2px solid var(--deep_neutral);
+  border-top: 20px solid var(--deep_neutral);
 }
 
 footer {
-  border-bottom: 2px solid var(--deep_neutral);
+  border-bottom: 20px solid var(--deep_neutral);
 }
 
 
