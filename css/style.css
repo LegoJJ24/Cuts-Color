@@ -1,4 +1,26 @@
+:root {
+
+  --background: #DCD4CA;         #Warm Cream / Linen
+
+  --deep_neutral: #282320;       #Espresso / Soft Black
+
+  --primary_accent: ##5B9B9E;    #Western Vintage Teal
+
+  --metallic_Accent: ##8B8D8F;   #Antique Silver / Pewter
+
+
+
+
+
 body {
-  font-family:
-  background-color: #DCD4CA
+
+  font-family: 'Rockwell Std', 'serif';
+
+  background-color: var(-background)
+
+  
+
+     }
+
 }
+
