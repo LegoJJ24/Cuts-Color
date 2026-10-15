@@ -4,8 +4,10 @@
   --deep_neutral: #282320;       /* Espresso / Soft Black */
   --primary_accent: #5B9B9E;     /* Western Vintage Teal */
   --metallic_Accent: #8B8D8F;    /* Antique Silver / Pewter */
+}
 
-  margin: 0:
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -15,7 +17,7 @@ body {
   margin: 0;
   background-color: var(--background);
   display: flex;
-  flex-direction: column:
+  flex-direction: column;
   min-height: 100vh;
 }
 
