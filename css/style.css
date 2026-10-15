@@ -13,14 +13,14 @@ body {
      }
 
 header {
-  background-color: var(--deep_neutral;
-  color: var(--background)
-  padding 20px;
+  background-color: var(--deep_neutral);
+  color: var(--background);
+  padding: 20px;
 }
 
 footer {
-  background-color: var(--deep_neutral;
-  color: var(--background)
-  padding 20px;
+  background-color: var(--deep_neutral);
+  color: var(--background);
+  padding: 20px;
 }
 
