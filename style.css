@@ -5,6 +5,16 @@
   --primary_accent: #5B9B9E;     /* Western Vintage Teal */
   --metallic_Accent: #8B8D8F;    /* Antique Silver / Pewter */
 }
+
+@font-face {
+  font-family: 'Buffalo';
+  src: url('fonts/BuffaloInline2Grunge.woff2') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: normal;
+}
+
+
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -58,7 +68,10 @@ footer {
   display: block;
 }
 
-.name-container {
+.name-container h2 {
+  font-family: 'Buffalo', serif;
+  color: var(--background);
+  font-size: 2rem;
   margin: 0;
-  font-size: 1.5rem;
+  white-space: nowrap:
     }
