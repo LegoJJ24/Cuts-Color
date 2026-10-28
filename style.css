@@ -6,12 +6,22 @@
   --metallic_Accent: #8B8D8F;    /* Antique Silver / Pewter */
 }
 
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Custom Fonts */
 @font-face {
   font-family: 'Buffalo';
-  src: url('fonts/BuffaloInline2Grunge.woff2') format('opentype');
+  src: url('fonts/BuffaloInline2Grunge.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-  font-display: normal;
+  font-display: swap;
 }
 
 
@@ -21,14 +31,10 @@
   padding: 0 20px;
 }
   
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
+/* Base Layout */
 body {
-  font-family: 'Rockwell Std', serif;
+  font-family: 'Buffalo', serif;
   margin: 0;
   background-color: var(--background);
   display: flex;
@@ -40,6 +46,8 @@ main {
   flex: 1;
 }
 
+
+/* Header & Footer */
 header {
   background-color: var(--deep_neutral);
   color: var(--background);
@@ -55,15 +63,15 @@ footer {
 .logo-container {
   display: flex;
   align-items: center;
-  max-width: 150px;
-  width: 100%;
+  gap: 20px;
   margin: 0;
-  padding: 1rem;
   
 }
 
+
+/* Header Branding */
 .logo-container img {
-  width: 100%;
+  width: 100px;
   height: auto;
   display: block;
 }
@@ -73,5 +81,5 @@ footer {
   color: var(--background);
   font-size: 2rem;
   margin: 0;
-  white-space: nowrap:
+  white-space: nowrap;
     }
