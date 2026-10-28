@@ -41,4 +41,20 @@ footer {
   color: var(--background);
   padding: 20px;
 }
+
+.logo-container {
+  max-width: 350;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+  padding: block;
+}
+
+
 }
