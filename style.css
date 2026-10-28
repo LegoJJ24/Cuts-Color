@@ -71,7 +71,7 @@ footer {
 }
 
 .logo-container img {
-  width: 100px;
+  width: 150px;
   height: auto;
   display: block;
 }
@@ -79,7 +79,7 @@ footer {
 .name-container h2 {
   font-family: 'Buffalo', serif;
   color: var(--primary_accent);
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 0;
   white-space: nowrap;
     }
