@@ -53,8 +53,5 @@ footer {
 .logo-container img {
   width: 100%;
   height: auto;
-  padding: block;
-}
-
-
+  display: block;
 }
