@@ -60,6 +60,8 @@ footer {
   padding: 20px;
 }
 
+
+/* Header Branding */
 .logo-container {
   display: flex;
   align-items: center;
@@ -68,8 +70,6 @@ footer {
   
 }
 
-
-/* Header Branding */
 .logo-container img {
   width: 100px;
   height: auto;
