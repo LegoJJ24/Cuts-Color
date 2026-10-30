@@ -46,18 +46,20 @@ body {
   flex-direction: column;
 }
 
-/* Header & Footer */
+/* Header */
 header {
   background-color: var(--deep_neutral);
   color: var(--background);
   padding: 20px;
 }
 
+/* Expands dynamically to push the footer down */
 main {
   flex: 1 0 auto;
   width: 100%;
 }
 
+/* Footer */
 footer {
   flex-shrink: 0;
   background-color: var(--deep_neutral);
