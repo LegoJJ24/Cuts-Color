@@ -71,7 +71,7 @@ footer {
   flex-shrink: 0;
   background-color: var(--deep_neutral);
   color: var(--background);
-  padding: 0;
+  padding: 20px;
 }
 
 /* Header Branding */
