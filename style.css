@@ -128,7 +128,7 @@ footer {
 }
 
 /*product highlights*/
-.product-highlight {
+.product-highlight-outer {
   flex: 0 1 348px;
   height: 680px;
   padding: 12px;
