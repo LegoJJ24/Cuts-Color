@@ -57,7 +57,7 @@ body {
 header {
   background-color: var(--deep_neutral);
   color: var(--background);
-  padding: 40px;
+  padding: 20px;
 }
 
 /* Expands dynamically to push the footer down */
@@ -71,7 +71,7 @@ footer {
   flex-shrink: 0;
   background-color: var(--deep_neutral);
   color: var(--background);
-  padding: 40px;
+  padding: 0;
 }
 
 /* Header Branding */
@@ -111,11 +111,6 @@ footer {
 /* Hero Section Inner Image Container */
 .hero-feature-inner {
   width: 100%;
-  max-width: 1052px;
-  height: 904px;
-
-  max-width: 97%;
-  max-height: 97%;
 
   border: 2px solid var(--metallic_Accent);
 
@@ -127,7 +122,7 @@ footer {
 /* Hero Right Collum Section */
 .hero-right-column {
   flex: 7;
-  height: 804;
+  height: 960;
   border: 2px solid var(--metallic_Accent);
 }
 
