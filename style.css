@@ -26,10 +26,17 @@
 
 
 .main-container {
-  max-width: 1200px;
+  max-width: 1920px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
 }
+
+.hero-row {
+  display: flex;
+  gap: 40px;
+  margin-top: 40;
+}
+
 
 html {
   height: 100;
@@ -50,7 +57,7 @@ body {
 header {
   background-color: var(--deep_neutral);
   color: var(--background);
-  padding: 20px;
+  padding: 40px;
 }
 
 /* Expands dynamically to push the footer down */
@@ -64,7 +71,7 @@ footer {
   flex-shrink: 0;
   background-color: var(--deep_neutral);
   color: var(--background);
-  padding: 20px;
+  padding: 40px;
 }
 
 /* Header Branding */
@@ -90,9 +97,9 @@ footer {
 
 /* Hero Section Outer Boundry */
 .hero-feature-outer {
-  width: 100%;
-  max-width: 1100px;
+  flex: 11;
   height: 960px;
+  padding: 12px;
 
   border: 2px solid var(--metallic_Accent);
 
@@ -107,14 +114,21 @@ footer {
   max-width: 1052px;
   height: 904px;
 
-  max-width: 95%;
-  max-height: 95%;
+  max-width: 97%;
+  max-height: 97%;
 
   border: 2px solid var(--metallic_Accent);
 
   background-color: #f5f5f5;
   background-size: cover;
   background-position: center;
+}
+
+/* Hero Right Collum Section */
+.hero-right-collum {
+  flex: 7;
+  height: 804;
+  border: 2px solid var(--metallic_Accent);
 }
 
 
